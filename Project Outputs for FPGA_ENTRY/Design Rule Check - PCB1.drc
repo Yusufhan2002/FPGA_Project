@@ -1,295 +1,98 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\berat\Desktop\FPGA_Project\PCB1.PcbDoc
-Date     : 31.10.2026
-Time     : 19:11:03
+Date     : 5.11.2026
+Time     : 23:00:31
 
-Processing Rule : Clearance Constraint (Gap=0mm) (InComponent('J1') Or InComponent('U6') Or InComponent('U11') Or InComponent('U5')   Or InComponent('U8')  Or InComponent('FB2')    Or InComponent('D4')),(All)
-Rule Violations :0
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InComponent('U1') Or InComponent('U6') Or InComponent('U11') Or InComponent('U5') Or InComponent('U8') Or InComponent('FH2') Or InComponent('D4')),(All)
+   Violation between Clearance Constraint: (0.075mm < 0.2mm) Between Pad D4-2(9.807mm,47.146mm) on L1 And Track (3.957mm,47.596mm)(9.807mm,47.596mm) on L1 
+   Violation between Clearance Constraint: (0.075mm < 0.2mm) Between Pad D4-2(9.807mm,47.146mm) on L1 And Track (9.807mm,47.596mm)(9.807mm,49.421mm) on L1 
+   Violation between Clearance Constraint: (0.184mm < 0.2mm) Between Pad U6-A10(44.857mm,32.671mm) on L1 And Track (45.357mm,32.171mm)(45.357mm,40.396mm) on L1 
+   Violation between Clearance Constraint: (0.184mm < 0.2mm) Between Pad U6-A11(45.857mm,32.671mm) on L1 And Track (45.357mm,32.171mm)(45.357mm,40.396mm) on L1 
+   Violation between Clearance Constraint: (0.159mm < 0.2mm) Between Pad U6-A9(43.857mm,32.671mm) on L1 And Track (44.332mm,31.346mm)(44.332mm,38.821mm) on L1 
+   Violation between Clearance Constraint: (0.184mm < 0.2mm) Between Pad U6-B10(44.857mm,31.671mm) on L1 And Track (44.507mm,31.171mm)(46.357mm,31.171mm) on L1 
+   Violation between Clearance Constraint: (0.184mm < 0.2mm) Between Pad U6-B11(45.857mm,31.671mm) on L1 And Track (44.507mm,31.171mm)(46.357mm,31.171mm) on L1 
+   Violation between Clearance Constraint: (0.159mm < 0.2mm) Between Pad U6-B9(43.857mm,31.671mm) on L1 And Track (44.332mm,31.346mm)(44.332mm,38.821mm) on L1 
+   Violation between Clearance Constraint: (0.184mm < 0.2mm) Between Pad U6-C10(44.857mm,30.671mm) on L1 And Track (44.507mm,31.171mm)(46.357mm,31.171mm) on L1 
+   Violation between Clearance Constraint: (0.184mm < 0.2mm) Between Pad U6-C11(45.857mm,30.671mm) on L1 And Track (44.507mm,31.171mm)(46.357mm,31.171mm) on L1 
+   Violation between Clearance Constraint: (0.118mm < 0.2mm) Between Pad U6-H10(44.857mm,25.671mm) on L1 And Via (45.282mm,25.246mm) from L1 to L6 
+   Violation between Clearance Constraint: (0.113mm < 0.2mm) Between Pad U6-N7(41.857mm,20.671mm) on L1 And Track (41.427mm,17.876mm)(41.427mm,21.101mm) on L1 
+   Violation between Clearance Constraint: (0.113mm < 0.2mm) Between Pad U6-P7(41.857mm,19.671mm) on L1 And Track (41.427mm,17.876mm)(41.427mm,21.101mm) on L1 
+   Violation between Clearance Constraint: (0.176mm < 0.2mm) Between Pad U8-70(72.032mm,19.096mm) on L1 And Track (72.42mm,16.633mm)(72.42mm,18.344mm) on L1 
+   Violation between Clearance Constraint: (0.176mm < 0.2mm) Between Pad U8-70(72.032mm,19.096mm) on L1 And Track (72.42mm,18.344mm)(72.532mm,18.456mm) on L1 
+   Violation between Clearance Constraint: (0.176mm < 0.2mm) Between Pad U8-71(72.532mm,19.096mm) on L1 And Track (72.032mm,18.456mm)(72.144mm,18.344mm) on L1 
+   Violation between Clearance Constraint: (0.176mm < 0.2mm) Between Pad U8-71(72.532mm,19.096mm) on L1 And Track (72.144mm,16.519mm)(72.144mm,18.344mm) on L1 
+Rule Violations :17
 
-Processing Rule : Clearance Constraint (Gap=0.254mm) (InPolygon),(InComponent('U1'))
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InPolygon),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad Free-1(223.325mm,131.475mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad Free-1(223.325mm,79.45mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad Free-1(306.725mm,131.475mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad Free-1(306.725mm,79.45mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J1-(303.12mm,86.31mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J1-(303.12mm,92.09mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J3-1(266.675mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J3-3(262.675mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J3-4(260.675mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J3-5(258.675mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J3-6(256.675mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J4-1(281.025mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J4-2(279.025mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J4-3(277.025mm,130.55mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J5-1(306.25mm,99.05mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J5-2(306.25mm,101.05mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J5-3(306.25mm,103.05mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad J5-5(306.25mm,107.05mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad P2-1(305.25mm,120.59mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad P2-2(305.25mm,118.05mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-1(288.574mm,127.689mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad SW1-1(295.076mm,127.689mm) on Multi-Layer And Polygon Region (223 hole(s)) GND1 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Pad U5-7(268.6mm,88.025mm) on L1 And Pad U5-8(268.6mm,88.575mm) on Multi-Layer Location : [X = 268.6mm][Y = 88.575mm]
-   Violation between Short-Circuit Constraint: Between Pad U5-7(268.6mm,88.025mm) on L1 And Pad U5-9(268.6mm,87.475mm) on Multi-Layer Location : [X = 268.6mm][Y = 87.475mm]
-   Violation between Short-Circuit Constraint: Between Pad U6-J3(258.075mm,101.125mm) on L1 And Track (258.057mm,101.125mm)(258.075mm,101.125mm) on L1 Location : [X = 258.066mm][Y = 101.125mm]
-   Violation between Short-Circuit Constraint: Between Pad U6-J4(259.075mm,101.125mm) on L1 And Track (258.65mm,101.55mm)(259.075mm,101.125mm) on L1 Location : [X = 259.005mm][Y = 101.195mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Polygon Region (33 hole(s)) 1.8V/1.0V Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (263.65mm,100.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (263.65mm,101.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (263.65mm,102.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (263.65mm,96.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (264.5mm,101.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (264.5mm,104.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (265.5mm,101.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (265.5mm,103.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (265.5mm,98.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (19 hole(s)) 1.8V/1.0V And Via (265.5mm,99.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (223.62mm,109.925mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (226.325mm,103.575mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (226.925mm,105.325mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (227.825mm,102.65mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (227.8mm,97.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (232.346mm,125.878mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (233.2mm,94.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (238.372mm,125.878mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,100.765mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,101.948mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,103.14mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,104.431mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,105.5mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,106.5mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,107.75mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,108.975mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,95.807mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,97.048mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,98.313mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (248.145mm,99.578mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (250.325mm,117.45mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (250.35mm,123.35mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (256.65mm,103.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (256.65mm,108.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (256.65mm,96.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (257.5mm,99.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (257.612mm,106.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (257.65mm,103.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (257.65mm,105.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (258.5mm,109.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (258.65mm,101.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (258.65mm,104.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (258.65mm,105.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (258.65mm,108.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (259.65mm,100.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (259.65mm,102.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (259.65mm,106.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (259.65mm,107.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (259.65mm,108.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (260.5mm,105.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (260.65mm,106.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (260.65mm,96.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (260.65mm,99.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (261mm,91.5mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (262.075mm,114.675mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (262.5mm,105.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (262.65mm,96.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (262.65mm,99.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (263.5mm,104.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (263.65mm,102.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (264.5mm,101.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (264.5mm,105.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (264.5mm,98.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (264mm,89.3mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (265.5mm,101.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (265.5mm,104.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (268.5mm,100.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (268.5mm,103.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (268.5mm,96.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (269.9mm,116.75mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (272.625mm,102.275mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (273.5mm,102.264mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (273.5mm,111.975mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (274.45mm,102.275mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (274.45mm,111.925mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (277.85mm,111.3mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (278.6mm,95.35mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (283.575mm,90.375mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (284.25mm,107.65mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (284.55mm,82.975mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (285.65mm,116.05mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (286.6mm,107.65mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (287.7mm,114.05mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (291.026mm,106.9mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (292.75mm,98.425mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (293.65mm,115.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (293.925mm,98.4mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (303.325mm,90.225mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (223 hole(s)) GND1 And Via (303.35mm,88.25mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (258.5mm,103.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (258.65mm,101.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (258.65mm,104.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (258.65mm,105.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (258.65mm,99.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (259.65mm,101.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (259.65mm,106.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (260.5mm,104.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (261.65mm,99.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (263.5mm,104.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (263.5mm,105.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (265.5mm,103.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (265.5mm,105.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (265.5mm,98.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (265.5mm,99.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (266.5mm,98.7mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (267.5mm,103.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (268.5mm,100.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Polygon Region (33 hole(s)) 1.8V/1.0V And Via (268.5mm,103.55mm) from L1 to L6 Location : [X = 0mm][Y = 0mm]
-   Violation between Short-Circuit Constraint: Between Track (265.075mm,100.125mm)(265.5mm,99.7mm) on L1 And Via (265.5mm,99.7mm) from L1 to L6 Location : [X = 265.5mm][Y = 99.7mm]
-   Violation between Short-Circuit Constraint: Between Track (265.075mm,102.125mm)(265.5mm,101.7mm) on L1 And Via (265.5mm,101.7mm) from L1 to L6 Location : [X = 265.5mm][Y = 101.7mm]
-   Violation between Short-Circuit Constraint: Between Track (292.362mm,92.973mm)(292.88mm,92.455mm) on L1 And Track (292.88mm,92.455mm)(293.185mm,92.15mm) on L1 Location : [X = 292.88mm][Y = 92.455mm]
-   Violation between Short-Circuit Constraint: Between Track (292.638mm,93.087mm)(293.3mm,92.425mm) on L1 And Track (293.3mm,92.426mm)(294.231mm,92.426mm) on L1 Location : [X = 293.3mm][Y = 92.426mm]
-Rule Violations :139
+   Violation between Short-Circuit Constraint: Between Pad U5-7(48.382mm,11.571mm) on L1 And Pad U5-8(48.382mm,12.121mm) on Multi-Layer Location : [X = 268.6mm][Y = 88.575mm]
+   Violation between Short-Circuit Constraint: Between Pad U5-7(48.382mm,11.571mm) on L1 And Pad U5-9(48.382mm,11.021mm) on Multi-Layer Location : [X = 268.6mm][Y = 87.475mm]
+   Violation between Short-Circuit Constraint: Between Pad U6-J3(37.857mm,24.671mm) on L1 And Track (37.839mm,24.671mm)(37.857mm,24.671mm) on L1 Location : [X = 258.066mm][Y = 101.125mm]
+   Violation between Short-Circuit Constraint: Between Pad U6-J4(38.857mm,24.671mm) on L1 And Track (38.432mm,25.096mm)(38.857mm,24.671mm) on L1 Location : [X = 259.005mm][Y = 101.195mm]
+   Violation between Short-Circuit Constraint: Between Track (44.857mm,25.671mm)(45.282mm,25.246mm) on L1 And Via (45.282mm,25.246mm) from L1 to L6 Location : [X = 265.5mm][Y = 101.7mm]
+   Violation between Short-Circuit Constraint: Between Track (72.144mm,16.519mm)(72.662mm,16.001mm) on L1 And Track (72.662mm,16.001mm)(72.967mm,15.696mm) on L1 Location : [X = 292.88mm][Y = 92.455mm]
+   Violation between Short-Circuit Constraint: Between Track (72.42mm,16.633mm)(73.082mm,15.971mm) on L1 And Track (73.082mm,15.972mm)(74.013mm,15.972mm) on L1 Location : [X = 293.3mm][Y = 92.426mm]
+Rule Violations :7
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-2(288.41mm,87.425mm) on L1 And Pad C10-1(290.9mm,88.005mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C10-1(290.9mm,88.005mm) on L1 And Pad U3-2(295.65mm,88.72mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-1(294.957mm,81.825mm) on L1 And Pad C2-1(295.605mm,84.85mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-1(294.957mm,81.825mm) on L1 And Pad C4-1(297.1mm,81.795mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-2(237.64mm,116.975mm) on L1 And Pad C11-1(242.5mm,116.345mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C11-1(242.5mm,116.345mm) on L1 And Pad U7-4(253.9mm,117.875mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C66-1(232.625mm,112.45mm) on L1 And Pad C12-1(235.15mm,116.345mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C12-1(235.15mm,116.345mm) on L1 And Pad U4-2(237.64mm,116.975mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C2-1(295.605mm,84.85mm) on L1 And Pad U3-2(295.65mm,88.72mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C4-1(297.1mm,81.795mm) on L1 And Pad C3-1(298.5mm,82.493mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C3-1(298.5mm,82.493mm) on L1 And Pad J1-S1(302.63mm,84.875mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C33-1(263.332mm,121.7mm) on L1 And Pad J3-2(264.675mm,130.55mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U7-9(257.05mm,119.78mm) on L1 And Pad C33-1(263.332mm,121.7mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C33-1(263.332mm,121.7mm) on L1 And Pad Y1-2(267.355mm,121.375mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Y1-2(267.355mm,121.375mm) on L1 And Pad C34-1(268.268mm,123.325mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C36-1(223.57mm,106.85mm) on L6 And Pad C35-1(223.576mm,105.313mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C35-1(223.576mm,105.313mm) on L6 And Pad C45-1(223.775mm,102.718mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C37-1(222.776mm,97.038mm) on L1 And Pad C38-1(223.474mm,98.438mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C37-1(222.776mm,97.038mm) on L1 And Pad C41-1(227.33mm,95.241mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C38-1(223.474mm,98.438mm) on L1 And Pad C39-1(223.499mm,99.688mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C39-1(223.499mm,99.688mm) on L1 And Pad C46-1(224.143mm,101.55mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C42-1(228.58mm,95.241mm) on L1 And Pad C40-1(230.017mm,94.395mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-27(229.996mm,99.069mm) on L1 And Pad C40-1(230.017mm,94.395mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C40-1(230.017mm,94.395mm) on L1 And Pad Y2-2(236.877mm,92.127mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C41-1(227.33mm,95.241mm) on L1 And Pad C42-1(228.58mm,95.241mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C45-1(223.775mm,102.718mm) on L6 And Pad C46-1(224.143mm,101.55mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C48-1(236.482mm,90.65mm) on L1 And Pad Y2-2(236.877mm,92.127mm) on L1 
-   Violation between Un-Routed Net Constraint: Net +3V3 Between Track (233.225mm,93.35mm)(233.225mm,94.675mm) on L1 And Pad C48-2(235.618mm,90.65mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C49-2(286.6mm,106.25mm) on L6 And Pad C50-2(287.775mm,106.25mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C51-2(285.425mm,106.25mm) on L6 And Pad C49-2(286.6mm,106.25mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-7(268.6mm,88.025mm) on L1 And Pad C5-1(271.4mm,87.12mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C52-2(284.25mm,106.25mm) on L6 And Pad C51-2(285.425mm,106.25mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-20(285.25mm,110.91mm) on L1 And Pad C51-2(285.425mm,106.25mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-99(296.43mm,108.73mm) on L1 And Pad C53-2(299.625mm,107.825mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C61-2(292.75mm,99.825mm) on L6 And Pad C54-2(293.925mm,99.825mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C54-2(293.925mm,99.825mm) on L6 And Pad U8-74(294.25mm,95.55mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C62-1(291.025mm,117.35mm) on L1 And Pad C55-2(292.6mm,114.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C56-2(284.85mm,114.05mm) on L1 And Pad C63-1(286.925mm,117.35mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C56-2(284.85mm,114.05mm) on L1 And Pad U8-20(285.25mm,110.91mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C57-2(276.425mm,108.2mm) on L1 And Pad C59-2(276.425mm,109.475mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C57-2(276.425mm,108.2mm) on L1 And Pad U8-27(281.07mm,108.73mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C58-2(277.2mm,97.225mm) on L1 And Pad C60-2(277.2mm,98.575mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (269.5mm,95.7mm) from L1 to L6 And Pad C58-2(277.2mm,97.225mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-A14(269.075mm,109.125mm) on L1 And Pad C59-2(276.425mm,109.475mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-2(261.953mm,87.725mm) on L1 And Pad C6-1(265.725mm,87.12mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C6-1(265.725mm,87.12mm) on L1 And Pad U5-3(267.625mm,87.375mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C63-1(286.925mm,117.35mm) on L1 And Pad C62-1(291.025mm,117.35mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad SW1-2(295.076mm,132.211mm) on Multi-Layer And Pad C64-2(298.025mm,129.1mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C65-1(232.625mm,111.286mm) on L1 And Pad C66-1(232.625mm,112.45mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-16(229.996mm,106.231mm) on L1 And Pad C65-1(232.625mm,111.286mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-3(230.725mm,123.825mm) on L1 And Pad C67-1(232.35mm,125.018mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C67-1(232.35mm,125.018mm) on L1 And Pad D5-1(233.95mm,123.6mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-1(255.375mm,83.725mm) on L1 And Pad C7-1(256.675mm,86.895mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C7-1(256.675mm,86.895mm) on L1 And Pad U2-2(261.953mm,87.725mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-2(261.953mm,87.725mm) on L1 And Pad C8-1(263.505mm,84.9mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-1(280.1mm,84.675mm) on L1 And Pad C9-1(283.6mm,86.595mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C9-1(283.6mm,86.595mm) on L1 And Pad U1-2(288.41mm,87.425mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D10-1(276.825mm,84.7mm) on L1 And Pad D9-1(278.45mm,84.7mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-1(288.623mm,83.993mm) on L1 And Pad D1-1(289.98mm,80.495mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-1(233.95mm,123.6mm) on L1 And Pad D2-1(237.375mm,120.475mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-1(237.375mm,120.475mm) on L1 And Pad U4-2(237.64mm,116.975mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-2(288.41mm,87.425mm) on L1 And Pad D3-1(288.623mm,83.993mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U9-4(229.22mm,119.589mm) on L1 And Pad D4-3(230.725mm,123.825mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D7-1(266.859mm,83.806mm) on L1 And Pad U5-3(267.625mm,87.375mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-1(278.45mm,84.7mm) on L1 And Pad D8-1(280.1mm,84.675mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A1_B12(302.05mm,86mm) on L1 And Pad J1-S1(302.63mm,84.875mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B1_A12(302.05mm,92.4mm) on L1 And Pad J1-S2(302.63mm,93.525mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net USB_D_P Between Track (300.837mm,89.062mm)(301.518mm,89.062mm) on L1 And Pad J1-B6(302.05mm,89.95mm) on L1 
-   Violation between Un-Routed Net Constraint: Net USB_D_N Between Track (301.518mm,89.338mm)(301.63mm,89.45mm) on L1 And Pad J1-B7(302.05mm,88.45mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R2-1(305.98mm,90.225mm) on L6 And Pad J1-S4(306.8mm,93.525mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-G3(224.15mm,126.775mm) on L6 And Pad J2-G1(224.15mm,126.775mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-G4(224.15mm,121.375mm) on L6 And Pad J2-G2(224.15mm,121.375mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-G2(224.15mm,121.375mm) on L1 And Pad U9-4(229.22mm,119.589mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-G4(224.15mm,121.375mm) on L6 And Pad J2-G3(224.15mm,126.775mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R1-1(305.98mm,88.25mm) on L6 And Pad R2-1(305.98mm,90.225mm) on L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-17(229.996mm,105.571mm) on L1 And Pad U11-16(229.996mm,106.231mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-19(229.996mm,104.276mm) on L1 And Pad U11-17(229.996mm,105.571mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-22(229.996mm,102.32mm) on L1 And Pad U11-19(229.996mm,104.276mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-25(229.996mm,100.364mm) on L1 And Pad U11-22(229.996mm,102.32mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-27(229.996mm,99.069mm) on L1 And Pad U11-25(229.996mm,100.364mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-74(294.25mm,95.55mm) on L1 And Pad U3-2(295.65mm,88.72mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-3(267.625mm,87.375mm) on L1 And Pad U5-7(268.6mm,88.025mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (267.141mm,92.6mm)(268.4mm,92.6mm) on L6 And Pad U5-7(268.6mm,88.025mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-A1(256.075mm,109.125mm) on L1 And Pad U6-C2(257.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-A11(266.075mm,109.125mm) on L1 And Pad U6-A14(269.075mm,109.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-A9(264.075mm,109.125mm) on L1 And Pad U6-A11(266.075mm,109.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C13(268.075mm,107.125mm) on L1 And Pad U6-A14(269.075mm,109.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net FLASH_CLK Between Track (262.297mm,119.148mm)(262.3mm,119.15mm) on L1 And Pad U6-A8(263.075mm,109.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-B9(264.075mm,108.125mm) on L1 And Pad U6-A9(264.075mm,109.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C2(257.075mm,107.125mm) on L1 And Pad U6-B4(259.075mm,108.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-B4(259.075mm,108.125mm) on L1 And Pad U6-D5(260.075mm,106.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C8(263.075mm,107.125mm) on L1 And Pad U6-B8(263.075mm,108.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C9(264.075mm,107.125mm) on L1 And Pad U6-B9(264.075mm,108.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net FLASH_HOLD Between Track (262.292mm,120.408mm)(262.3mm,120.4mm) on L1 And Pad U6-C10(265.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net FLASH_CS Between Pad U6-C11(266.075mm,107.125mm) on L1 And Pad U6-E13(268.075mm,105.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net FLASH_CS Between Track (253.895mm,121.68mm)(253.9mm,121.685mm) on L1 And Pad U6-C11(266.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C13(268.075mm,107.125mm) on L1 And Pad U6-E14(269.075mm,105.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C6(261.075mm,107.125mm) on L1 And Pad U6-C7(262.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C7(262.075mm,107.125mm) on L1 And Pad U6-C8(263.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-D7(262.075mm,106.125mm) on L1 And Pad U6-C7(262.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (261.65mm,107.7mm) from L1 to L6 And Pad U6-C7(262.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C8(263.075mm,107.125mm) on L1 And Pad U6-C9(264.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-D9(264.075mm,106.125mm) on L1 And Pad U6-C9(264.075mm,107.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net FLASH_WP Between Track (253.89mm,119.135mm)(253.9mm,119.145mm) on L1 And Pad U6-D10(265.075mm,106.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (265.5mm,105.55mm) from L1 to L6 And Pad U6-D11(266.075mm,106.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-D5(260.075mm,106.125mm) on L1 And Via (260.5mm,104.55mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net +1V0 Between Pad U6-D8(263.075mm,106.125mm) on L1 And Via (264.5mm,105.55mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-E1(256.075mm,105.125mm) on L1 And Pad U6-E3(258.075mm,105.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-E3(258.075mm,105.125mm) on L1 And Via (258.5mm,103.55mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-E6(261.075mm,105.125mm) on L1 And Pad U6-E8(263.075mm,105.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net +1V0 Between Track (261.075mm,104.125mm)(261.5mm,104.55mm) on L1 And Pad U6-E7(262.075mm,105.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad U6-H10(265.075mm,102.125mm) on L1 And Pad U6-F10(265.075mm,104.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad U6-K2(257.075mm,100.125mm) on L1 And Pad U6-G2(257.075mm,103.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net +1V0 Between Via (259.65mm,102.7mm) from L1 to L6 And Pad U6-H6(261.075mm,102.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-J10(265.075mm,101.125mm) on L1 And Via (265.5mm,99.7mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-J6(261.075mm,101.125mm) on L1 And Via (261.65mm,99.7mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-K1(256.075mm,100.125mm) on L1 And Via (258.65mm,99.55mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad U6-L9(264.075mm,99.125mm) on L1 And Pad U6-K10(265.075mm,100.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-K5(260.075mm,100.125mm) on L1 And Via (261.65mm,99.7mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-L6(261.075mm,99.125mm) on L1 And Via (261.65mm,99.7mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (261.65mm,99.7mm) from L1 to L6 And Pad U6-L8(263.075mm,99.125mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-P1(256.075mm,96.125mm) on L1 And Via (257.65mm,96.7mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U7-4(253.9mm,117.875mm) on L1 And Pad U7-9(257.05mm,119.78mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-20(285.25mm,110.91mm) on L1 And Pad U8-10(290.25mm,110.91mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-10(290.25mm,110.91mm) on L1 And Pad U8-99(296.43mm,108.73mm) on L1 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-27(281.07mm,108.73mm) on L1 And Pad U8-20(285.25mm,110.91mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-1(74.739mm,5.371mm) on L1 And Pad C2-1(75.387mm,8.396mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C2-1(75.387mm,8.396mm) on L1 And Pad U3-2(75.432mm,12.266mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Track (13.007mm,16.896mm)(13.007mm,18.221mm) on L1 And Pad C48-2(15.4mm,14.196mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-7(48.382mm,11.571mm) on L1 And Pad C5-1(51.182mm,10.666mm) on L1 
+   Violation between Un-Routed Net Constraint: Net VDDA Between Pad C51-1(65.207mm,31.196mm) on L6 And Track (66.382mm,31.196mm)(66.382mm,32.321mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-2(68.192mm,10.971mm) on L1 And Pad D3-1(68.405mm,7.539mm) on L1 
+   Violation between Un-Routed Net Constraint: Net USB_D_P Between Track (80.619mm,12.608mm)(81.3mm,12.608mm) on L1 And Pad J1-B6(81.832mm,13.496mm) on L1 
+   Violation between Un-Routed Net Constraint: Net USB_D_N Between Track (81.3mm,12.884mm)(81.412mm,12.996mm) on L1 And Pad J1-B7(81.832mm,11.996mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-3(47.407mm,10.921mm) on L1 And Pad U5-7(48.382mm,11.571mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-A11(45.857mm,32.671mm) on L1 And Pad U6-A14(48.857mm,32.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net FLASH_CLK Between Track (42.079mm,42.694mm)(42.082mm,42.696mm) on L1 And Pad U6-A8(42.857mm,32.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-B9(43.857mm,31.671mm) on L1 And Pad U6-A9(43.857mm,32.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C2(36.857mm,30.671mm) on L1 And Pad U6-B4(38.857mm,31.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-B4(38.857mm,31.671mm) on L1 And Pad U6-C6(40.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C8(42.857mm,30.671mm) on L1 And Pad U6-B8(42.857mm,31.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C9(43.857mm,30.671mm) on L1 And Pad U6-B9(43.857mm,31.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net FLASH_HOLD Between Track (42.074mm,43.954mm)(42.082mm,43.946mm) on L1 And Pad U6-C10(44.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net FLASH_CS Between Pad U6-C11(45.857mm,30.671mm) on L1 And Pad U6-E13(47.857mm,28.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net FLASH_CS Between Track (33.677mm,45.226mm)(33.682mm,45.231mm) on L1 And Pad U6-C11(45.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C13(47.857mm,30.671mm) on L1 And Via (48.432mm,28.246mm) from L1 to L6 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C6(40.857mm,30.671mm) on L1 And Via (41.432mm,31.246mm) from L1 to L6 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-C7(41.857mm,30.671mm) on L1 And Pad U6-C8(42.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-D7(41.857mm,29.671mm) on L1 And Pad U6-C7(41.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (41.432mm,31.246mm) from L1 to L6 And Pad U6-C7(41.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-D9(43.857mm,29.671mm) on L1 And Pad U6-C9(43.857mm,30.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net FLASH_WP Between Track (33.672mm,42.681mm)(33.682mm,42.691mm) on L1 And Pad U6-D10(44.857mm,29.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-E6(40.857mm,28.671mm) on L1 And Pad U6-D7(41.857mm,29.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Pad U6-D8(42.857mm,29.671mm) on L1 And Via (44.282mm,29.096mm) from L1 to L6 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-E1(35.857mm,28.671mm) on L1 And Pad U6-E3(37.857mm,28.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-E6(40.857mm,28.671mm) on L1 And Pad U6-E8(42.857mm,28.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-G6(40.857mm,26.671mm) on L1 And Pad U6-E6(40.857mm,28.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Track (40.857mm,27.671mm)(41.282mm,28.096mm) on L1 And Pad U6-E7(41.857mm,28.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Via (42.282mm,29.096mm) from L1 to L6 And Pad U6-E9(43.857mm,28.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad U6-H10(44.857mm,25.671mm) on L1 And Pad U6-F10(44.857mm,27.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-H5(39.857mm,25.671mm) on L1 And Pad U6-F5(39.857mm,27.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad U6-K2(36.857mm,23.671mm) on L1 And Pad U6-G2(36.857mm,26.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Via (39.432mm,26.246mm) from L1 to L6 And Pad U6-H6(40.857mm,25.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (43.432mm,25.246mm)(43.857mm,25.671mm) on L1 And Pad U6-J10(44.857mm,24.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-K5(39.857mm,23.671mm) on L1 And Pad U6-J6(40.857mm,24.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-J6(40.857mm,24.671mm) on L1 And Pad U6-K7(41.857mm,23.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad U6-L9(43.857mm,22.671mm) on L1 And Pad U6-K10(44.857mm,23.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-K7(41.857mm,23.671mm) on L1 And Pad U6-L8(42.857mm,22.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-L8(42.857mm,22.671mm) on L1 And Pad U6-L10(44.857mm,22.671mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-L6(40.857mm,22.671mm) on L1 And Pad U6-L8(42.857mm,22.671mm) on L1 
+   Violation between Isolated copper: Split Plane  (+1V0) on 1.8V. Dead copper detected. Copper area is : 0.1 sq. mm
+   Violation between Isolated copper: Split Plane  (+1V8) on 1.8V. Dead copper detected. Copper area is : 0.823 sq. mm
    Violation between Isolated copper: Split Plane  (+3V3) on +3V3. Dead copper detected. Copper area is : 0.089 sq. mm
-   Violation between Isolated copper: Split Plane  (+3V3) on +3V3. Dead copper detected. Copper area is : 0.089 sq. mm
-   Violation between Un-Routed Net Constraint: Track (258.057mm,101.125mm)(258.075mm,101.125mm) on L1 Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (258.65mm,101.55mm)(259.075mm,101.125mm) on L1 Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net GND Between Via (260.5mm,104.55mm) from L1 to L6 And Track (261.075mm,103.125mm)(261.5mm,103.55mm) on L1 
-   Violation between Un-Routed Net Constraint: Net +1V0 Between Track (262.966mm,98.509mm)(262.966mm,99.384mm) on L6 And Via (264mm,89.3mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Net VDDA Between Via (284.25mm,107.65mm) from L1 to L6 And Track (286.6mm,107.65mm)(286.6mm,108.775mm) on L1 
-   Violation between Un-Routed Net Constraint: Net MCU_D_N Between Track (292.362mm,92.973mm)(292.88mm,92.455mm) on L1 And Track (293.3mm,92.426mm)(294.231mm,92.426mm) on L1 
-   Violation between Un-Routed Net Constraint: Net MCU_D_P Between Track (292.88mm,92.455mm)(293.185mm,92.15mm) on L1 And Track (292.638mm,93.087mm)(293.3mm,92.425mm) on L1 
-   Violation between Un-Routed Net Constraint: Via (258.65mm,101.55mm) from L1 to L6 Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net +1V0 Between Via (263.65mm,102.7mm) from L1 to L6 And Via (264.5mm,101.55mm) from L1 to L6 
-Rule Violations :137
+   Violation between Un-Routed Net Constraint: Track (37.839mm,24.671mm)(37.857mm,24.671mm) on L1 Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (38.432mm,25.096mm)(38.857mm,24.671mm) on L1 Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Via (40.432mm,30.096mm) from L1 to L6 And Track (42.348mm,30.062mm)(42.757mm,30.471mm) on L6 
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Track (42.748mm,22.055mm)(42.748mm,22.93mm) on L6 And Via (43.782mm,12.846mm) from L1 to L6 
+   Violation between Un-Routed Net Constraint: Net MCU_D_N Between Track (72.144mm,16.519mm)(72.662mm,16.001mm) on L1 And Track (73.082mm,15.972mm)(74.013mm,15.972mm) on L1 
+   Violation between Un-Routed Net Constraint: Net MCU_D_P Between Track (72.662mm,16.001mm)(72.967mm,15.696mm) on L1 And Track (72.42mm,16.633mm)(73.082mm,15.971mm) on L1 
+   Violation between Un-Routed Net Constraint: Via (38.432mm,25.096mm) from L1 to L6 Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net +1V0 Between Via (40.432mm,23.246mm) from L1 to L6 And Via (42.432mm,23.246mm) from L1 to L6 
+Rule Violations :55
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -304,10 +107,10 @@ Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(223.325mm,131.475mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(223.325mm,79.45mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(306.725mm,131.475mm) on Multi-Layer Actual Hole Size = 3mm
-   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(306.725mm,79.45mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(3.048mm,3.048mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(3.107mm,55.021mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(86.507mm,2.996mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-1(86.507mm,55.021mm) on Multi-Layer Actual Hole Size = 3mm
 Rule Violations :4
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
@@ -320,34 +123,30 @@ Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (0.193mm < 0.254mm) Between Region (0 hole(s)) Top Overlay And Text "D6" (255.684mm,82.303mm) on Top Overlay Silk Text to Silk Clearance [0.193mm]
-   Violation between Silk To Silk Clearance Constraint: (0.194mm < 0.254mm) Between Region (0 hole(s)) Top Overlay And Text "D7" (267.134mm,82.38mm) on Top Overlay Silk Text to Silk Clearance [0.194mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C21" (261.95mm,99.619mm) on Bottom Overlay And Text "C22" (260.706mm,99.67mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
-   Violation between Silk To Silk Clearance Constraint: (0.184mm < 0.254mm) Between Text "C29" (264.363mm,96.952mm) on Bottom Overlay And Track (262.275mm,97.45mm)(262.575mm,97.45mm) on Bottom Overlay Silk Text to Silk Clearance [0.184mm]
-   Violation between Silk To Silk Clearance Constraint: (0.065mm < 0.254mm) Between Text "C40" (229.315mm,92.98mm) on Top Overlay And Text "R22" (230.914mm,92.479mm) on Top Overlay Silk Text to Silk Clearance [0.065mm]
-   Violation between Silk To Silk Clearance Constraint: (0.19mm < 0.254mm) Between Text "C44" (222.455mm,102.449mm) on Bottom Overlay And Text "C45" (221.605mm,102.395mm) on Bottom Overlay Silk Text to Silk Clearance [0.19mm]
-   Violation between Silk To Silk Clearance Constraint: (0.133mm < 0.254mm) Between Text "C54" (293.374mm,101.045mm) on Bottom Overlay And Text "C61" (291.809mm,101.07mm) on Bottom Overlay Silk Text to Silk Clearance [0.133mm]
-   Violation between Silk To Silk Clearance Constraint: (0.245mm < 0.254mm) Between Text "C55" (291.145mm,114.83mm) on Top Overlay And Track (291.85mm,114.475mm)(291.95mm,114.475mm) on Top Overlay Silk Text to Silk Clearance [0.245mm]
-   Violation between Silk To Silk Clearance Constraint: (0.194mm < 0.254mm) Between Text "C56" (284.747mm,114.705mm) on Top Overlay And Track (285.5mm,114.4mm)(285.6mm,114.4mm) on Top Overlay Silk Text to Silk Clearance [0.194mm]
-   Violation between Silk To Silk Clearance Constraint: (0.105mm < 0.254mm) Between Text "D4" (229.91mm,122.255mm) on Top Overlay And Track (229.865mm,123.1mm)(230.885mm,123.1mm) on Top Overlay Silk Text to Silk Clearance [0.105mm]
-   Violation between Silk To Silk Clearance Constraint: (0.239mm < 0.254mm) Between Text "D6" (255.684mm,82.303mm) on Top Overlay And Track (256.025mm,83.225mm)(256.025mm,84.225mm) on Top Overlay Silk Text to Silk Clearance [0.239mm]
-   Violation between Silk To Silk Clearance Constraint: (0.248mm < 0.254mm) Between Text "D7" (267.134mm,82.38mm) on Top Overlay And Track (267.509mm,83.306mm)(267.509mm,84.306mm) on Top Overlay Silk Text to Silk Clearance [0.248mm]
-   Violation between Silk To Silk Clearance Constraint: (0.241mm < 0.254mm) Between Text "U5" (268.157mm,89.461mm) on Top Overlay And Track (267.6mm,89.145mm)(269.6mm,89.145mm) on Top Overlay Silk Text to Silk Clearance [0.241mm]
+   Violation between Silk To Silk Clearance Constraint: (0.193mm < 0.254mm) Between Region (0 hole(s)) Top Overlay And Text "D6" (35.466mm,5.849mm) on Top Overlay Silk Text to Silk Clearance [0.193mm]
+   Violation between Silk To Silk Clearance Constraint: (0.194mm < 0.254mm) Between Region (0 hole(s)) Top Overlay And Text "D7" (46.916mm,5.926mm) on Top Overlay Silk Text to Silk Clearance [0.194mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C21" (41.732mm,23.165mm) on Bottom Overlay And Text "C22" (40.488mm,23.216mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.184mm < 0.254mm) Between Text "C29" (44.145mm,20.498mm) on Bottom Overlay And Track (42.057mm,20.996mm)(42.357mm,20.996mm) on Bottom Overlay Silk Text to Silk Clearance [0.184mm]
+   Violation between Silk To Silk Clearance Constraint: (0.065mm < 0.254mm) Between Text "C40" (9.097mm,16.526mm) on Top Overlay And Text "R22" (10.696mm,16.025mm) on Top Overlay Silk Text to Silk Clearance [0.065mm]
+   Violation between Silk To Silk Clearance Constraint: (0.19mm < 0.254mm) Between Text "C44" (2.237mm,25.995mm) on Bottom Overlay And Text "C45" (1.387mm,25.941mm) on Bottom Overlay Silk Text to Silk Clearance [0.19mm]
+   Violation between Silk To Silk Clearance Constraint: (0.133mm < 0.254mm) Between Text "C54" (73.156mm,24.591mm) on Bottom Overlay And Text "C61" (71.591mm,24.616mm) on Bottom Overlay Silk Text to Silk Clearance [0.133mm]
+   Violation between Silk To Silk Clearance Constraint: (0.245mm < 0.254mm) Between Text "C55" (70.927mm,38.376mm) on Top Overlay And Track (71.632mm,38.021mm)(71.732mm,38.021mm) on Top Overlay Silk Text to Silk Clearance [0.245mm]
+   Violation between Silk To Silk Clearance Constraint: (0.194mm < 0.254mm) Between Text "C56" (64.529mm,38.251mm) on Top Overlay And Track (65.282mm,37.946mm)(65.382mm,37.946mm) on Top Overlay Silk Text to Silk Clearance [0.194mm]
+   Violation between Silk To Silk Clearance Constraint: (0.105mm < 0.254mm) Between Text "D4" (9.692mm,45.801mm) on Top Overlay And Track (9.647mm,46.646mm)(10.667mm,46.646mm) on Top Overlay Silk Text to Silk Clearance [0.105mm]
+   Violation between Silk To Silk Clearance Constraint: (0.239mm < 0.254mm) Between Text "D6" (35.466mm,5.849mm) on Top Overlay And Track (35.807mm,6.771mm)(35.807mm,7.771mm) on Top Overlay Silk Text to Silk Clearance [0.239mm]
+   Violation between Silk To Silk Clearance Constraint: (0.248mm < 0.254mm) Between Text "D7" (46.916mm,5.926mm) on Top Overlay And Track (47.291mm,6.852mm)(47.291mm,7.852mm) on Top Overlay Silk Text to Silk Clearance [0.248mm]
+   Violation between Silk To Silk Clearance Constraint: (0.241mm < 0.254mm) Between Text "U5" (47.939mm,13.007mm) on Top Overlay And Track (47.382mm,12.691mm)(49.382mm,12.691mm) on Top Overlay Silk Text to Silk Clearance [0.241mm]
 Rule Violations :13
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Track (261.075mm,103.125mm)(261.5mm,103.55mm) on L1 
-   Violation between Net Antennae: Track (261.075mm,104.125mm)(261.5mm,104.55mm) on L1 
-   Violation between Net Antennae: Track (261.075mm,99.125mm)(261.5mm,98.7mm) on L1 
-   Violation between Net Antennae: Track (263.075mm,99.125mm)(263.5mm,98.7mm) on L1 
-   Violation between Net Antennae: Track (265.075mm,100.125mm)(265.5mm,99.7mm) on L1 
-   Violation between Net Antennae: Track (265.075mm,102.125mm)(265.5mm,101.7mm) on L1 
-   Violation between Net Antennae: Track (292.362mm,92.973mm)(292.88mm,92.455mm) on L1 
-   Violation between Net Antennae: Track (292.638mm,93.087mm)(293.3mm,92.425mm) on L1 
-   Violation between Net Antennae: Track (292.88mm,92.455mm)(293.185mm,92.15mm) on L1 
-   Violation between Net Antennae: Track (293.3mm,92.426mm)(294.231mm,92.426mm) on L1 
-   Violation between Net Antennae: Via (264mm,89.3mm) from L1 to L6 
-Rule Violations :11
+   Violation between Net Antennae: Track (40.857mm,27.671mm)(41.282mm,28.096mm) on L1 
+   Violation between Net Antennae: Track (44.857mm,25.671mm)(45.282mm,25.246mm) on L1 
+   Violation between Net Antennae: Track (72.144mm,16.519mm)(72.662mm,16.001mm) on L1 
+   Violation between Net Antennae: Track (72.42mm,16.633mm)(73.082mm,15.971mm) on L1 
+   Violation between Net Antennae: Track (72.662mm,16.001mm)(72.967mm,15.696mm) on L1 
+   Violation between Net Antennae: Track (73.082mm,15.972mm)(74.013mm,15.972mm) on L1 
+   Violation between Net Antennae: Via (43.782mm,12.846mm) from L1 to L6 
+Rule Violations :7
 
 Processing Rule : Matched Lengths(Tolerance=0mm) (InNetClass('bit'))
    Violation between Matched Net Lengths: Between Net bit1 And Net bit10 Length:10.883mm is not within 0mm tolerance of Length:10.883mm (0mm short) 
@@ -370,6 +169,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 315
+Violations Detected : 114
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:04
